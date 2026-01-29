@@ -353,6 +353,25 @@ footer {
     font-size: 0.9em;
 }
 
+.policy-content {
+    background-color: #fff;
+    padding: 50px 150px;
+    text-align: left;
+}
+
+.policy-content h1 {
+    font-size: 2.5em;
+    color: #191970;
+    margin-bottom: 20px;
+}
+
+.policy-content p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+}
+
 .video-container {
     position: relative;
     width: 100%;
@@ -368,4 +387,46 @@ footer {
     height: 120%;
     transform: translate(-50%, -50%);
     pointer-events: none; /* impede clique se for fundo */
+}
+
+.accordion {
+      max-width: 900px;
+      margin: 20px auto;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+
+    .accordion-item {
+      border-bottom: 1px solid #ddd;
+    }
+
+    .accordion-header {
+      background: #f7f7f7;
+      padding: 15px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: bold;
+    }
+
+    .accordion-header:hover {
+      background: #eee;
+    }
+
+    .accordion-content {
+      display: none;
+      padding: 15px;
+      background: #fff;
+    }
+
+    .icon {
+      font-size: 20px;
+      transition: transform 0.3s;
+    }
+
+    .active .icon {
+      transform: rotate(45deg);
 }
