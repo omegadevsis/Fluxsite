@@ -386,7 +386,6 @@ footer {
     width: 120%;
     height: 120%;
     transform: translate(-50%, -50%);
-    pointer-events: none; /* impede clique se for fundo */
 }
 
 .accordion {
