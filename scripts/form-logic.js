@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (messages[messageId]) messages[messageId].style.display = 'block';
     };
 
-    // --- Lógica de Navegação Corrigida ---
+    // --- Lógica de Navegação Corrigida ----
 
     // Passo 1: Contrato Ativo (Verifica "Sim" com S maiúsculo)
     form.querySelectorAll('input[name="contrato"]').forEach(radio => {
